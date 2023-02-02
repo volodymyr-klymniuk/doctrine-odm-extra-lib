@@ -8,7 +8,7 @@
             "VolodymyrKlymniuk\\DoctrineOdmExtraLib\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Volodymyr Klymniuk",

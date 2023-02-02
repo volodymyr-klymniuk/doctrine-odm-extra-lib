@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace VolodymyrKlymniuk\Doctrine\Odm\Document\Traits;
 
+use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+
 trait CreatedAtTrait
 {
     use \VolodymyrKlymniuk\StdLib\FrequentField\Traits\CreatedAtTrait;
