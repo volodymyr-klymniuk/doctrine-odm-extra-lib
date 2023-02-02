@@ -15,9 +15,13 @@
             "email": "Volodymyr.Klymniuk@gmail.com"
         }
     ],
+    "config": {
+        "secure-http": false
+    },
     "require": {
         "doctrine/mongodb-odm": "^2.4",
         "doctrine/mongodb-odm-bundle": "^4.5",
-        "volodymyr-klymniuk/std-lib": "dev-master"
+        "volodymyr-klymniuk/std-lib": "dev-master",
+        "volodymyr-klymniuk/lazy-result-lib": "dev-master"
     }
 }

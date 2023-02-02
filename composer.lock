@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5658b58198833a8811397e7d0310243",
+    "content-hash": "d83f5fe36295ef077b82cb2b7d04c506",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -244,6 +244,97 @@
                 "source": "https://github.com/doctrine/collections/tree/1.8.0"
             },
             "time": "2022-09-01T20:12:10+00:00"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "3.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "bd3bdeee06fbb78748b5c1d864a1cf8404bc9e05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/bd3bdeee06fbb78748b5c1d864a1cf8404bc9e05",
+                "reference": "bd3bdeee06fbb78748b5c1d864a1cf8404bc9e05",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/persistence": "^2.0 || ^3.0",
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9.0 || ^10.0",
+                "doctrine/collections": "^1",
+                "phpstan/phpstan": "^1.4.1",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpunit/phpunit": "^7.5.20 || ^8.5 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.0",
+                "symfony/phpunit-bridge": "^6.1",
+                "vimeo/psalm": "^4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                },
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, proxies and much more.",
+            "homepage": "https://www.doctrine-project.org/projects/common.html",
+            "keywords": [
+                "common",
+                "doctrine",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/common/issues",
+                "source": "https://github.com/doctrine/common/tree/3.5.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcommon",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-09T11:53:41+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -3524,6 +3615,50 @@
             "time": "2022-12-22T17:55:15+00:00"
         },
         {
+            "name": "volodymyr-klymniuk/lazy-result-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/volodymyr-klymniuk/lazy-result-lib.git",
+                "reference": "8670d5d8eda81d1aef2c5b5c11d41cec5d6c749c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/volodymyr-klymniuk/lazy-result-lib/zipball/8670d5d8eda81d1aef2c5b5c11d41cec5d6c749c",
+                "reference": "8670d5d8eda81d1aef2c5b5c11d41cec5d6c749c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "^3.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "VolodymyrKlymniuk\\LazyResultLib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT-advertising"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Klymniuk",
+                    "email": "Volodymyr.Klymniuk@gmail.com"
+                }
+            ],
+            "description": "PHP Library internal wrapper",
+            "support": {
+                "issues": "https://github.com/volodymyr-klymniuk/lazy-result-lib/issues",
+                "source": "https://github.com/volodymyr-klymniuk/lazy-result-lib/tree/v0.0.1"
+            },
+            "time": "2023-01-19T19:47:40+00:00"
+        },
+        {
             "name": "volodymyr-klymniuk/std-lib",
             "version": "dev-master",
             "source": {
@@ -3569,7 +3704,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "volodymyr-klymniuk/std-lib": 20
+        "volodymyr-klymniuk/std-lib": 20,
+        "volodymyr-klymniuk/lazy-result-lib": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
