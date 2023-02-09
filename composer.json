@@ -1,0 +1,31 @@
+{
+    "name": "volodymyr-klymniuk/doctrine-odm-extra-lib",
+    "description": "This library contains additional functionality for work with doctrine odm",
+    "type": "library",
+    "license": "MIT-advertising",
+    "autoload": {
+        "psr-4": {
+            "VolodymyrKlymniuk\\DoctrineOdmExtraLib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Volodymyr Klymniuk",
+            "email": "Volodymyr.Klymniuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "doctrine/mongodb-odm-bundle": "4.6.x-dev",
+        "volodymyr-klymniuk/lazy-result-lib": "dev-master",
+        "volodymyr-klymniuk/std-lib": "dev-master"
+    },
+    "config": {
+        "secure-http": false
+    },
+    "suggest": {
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

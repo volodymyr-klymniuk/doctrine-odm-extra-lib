@@ -8,7 +8,7 @@ use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 /**
  * @MongoDB\EmbeddedDocument
  */
-class IntRange extends \PhpSolution\StdLib\Range\IntRange
+class IntRange extends \VolodymyrKlymniuk\StdLib\Range\IntRange
 {
     /**
      * @MongoDB\Field(type="integer")
